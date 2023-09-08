@@ -41,6 +41,13 @@ body, html {
   left: 16px;
 }
 
+/* Position text in the bottom-right corner */
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+}
+
 /* Position text in the middle */
 .middle {
   position: absolute;
@@ -51,7 +58,6 @@ body, html {
 }
 
 /* Position the Logo in the center */
-/* <img src="/LC-Logo_nobg.png" alt="Logo - A knife crossed with herbs and the L&uuml;necooking text"> */
 .logo {
   display: flex;
   justify-content: center;
@@ -68,13 +74,10 @@ img {
 <body>
 
 <div class="bgimg">
-  <div class="topleft">
-    <p>L&uuml;necooking</p>
-  </div>
   <div class="logo">
     <img src="LC-Logo_nobg.png" alt="Logo - A knife crossed with herbs and the L&uuml;necooking text">
   </div>
-  <div class="bottomleft">
+  <div class="bottomright">
     <p>Foto von <a href="https://unsplash.com/de/@ktryna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">KTRYNA</a> auf <a href="https://unsplash.com/de/fotos/wq7VErajAaE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   </div>
 </div>
